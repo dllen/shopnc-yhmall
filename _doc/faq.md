@@ -1,4 +1,6 @@
 #faq
+(以下内容由 cnNewYork.com 研究发现，不代表 ShopNC 官方立场)
+
 1. 如何修改掉标题中的 powered by shopnc 标识  
 可以通过后台管理中的 SEO 设置直接修改掉该信息  
 
