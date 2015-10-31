@@ -69,7 +69,7 @@ class PhpQRCode{
 	    } else {    
 	    
 	        //default data
-	        QRcode::png('http://www.shopnc.net', $filename, $this->errorCorrectionLevel, $this->matrixPointSize, 2);    
+	        QRcode::png('http://www.cnnewyork.com', $filename, $this->errorCorrectionLevel, $this->matrixPointSize, 2);    
 	        
 	    }    
 	        

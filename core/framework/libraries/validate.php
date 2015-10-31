@@ -3,9 +3,9 @@
  * 验证类
  * 
  * @package    library
- * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.shopnc.net)
- * @license    http://www.shopnc.net
- * @link       http://www.shopnc.net
+ * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.cnnewyork.com)
+ * @license    http://www.cnnewyork.com
+ * @link       http://www.cnnewyork.com
  * @author	   ShopNC Team
  * @since      File available since Release v1.1
  */

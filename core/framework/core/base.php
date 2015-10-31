@@ -5,9 +5,9 @@
  * 核心初始化类，不允许继承
  *
  * @package    core
- * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.shopnc.net)
- * @license    http://www.shopnc.net
- * @link       http://www.shopnc.net
+ * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.cnnewyork.com)
+ * @license    http://www.cnnewyork.com
+ * @link       http://www.cnnewyork.com
  * @author	   ShopNC Team
  * @since      File available since Release v1.1
  */
@@ -178,11 +178,11 @@ final class Base{
 					continue;
 				}
 			}
-			header('location: http://www.shopnc.net');exit();
+			header('location: http://www.cnnewyork.com');exit();
 		}else{
 			$d = strtolower(stristr($_SERVER['HTTP_HOST'],self::CPURL));
 			if ($d != strtolower(self::CPURL)){
-				header('location: http://www.shopnc.net');exit();
+				header('location: http://www.cnnewyork.com');exit();
 			}
 		}
 	}

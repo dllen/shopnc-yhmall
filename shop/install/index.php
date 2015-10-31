@@ -57,7 +57,7 @@ EOF;
 $html_footer = <<<EOF
 <div class="footer">
   <h5>Powered by <font class="blue">Shop</font><font class="orange">NC</font><font class="black">【B2B2C】</font></h5>
-  <h6>版权所有 2007-2014 &copy; <a href="http://www.shopnc.net" target="_blank">天津市网城天创科技有限责任公司</a></h6>
+  <h6>版权所有 2007-2014 &copy; <a href="http://www.cnnewyork.com" target="_blank">天津市网城天创科技有限责任公司</a></h6>
   <h6>软件注册登记编号：软著登字第0650314号</h6>
 </div>
 EOF;

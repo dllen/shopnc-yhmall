@@ -129,7 +129,7 @@ $(document).ready(function() {
       <input type="submit" class="login-submit" value="商家登录">
     </div>
   </form>
-  <div class="copyright">Powered by ShopNC2014 © 2007-2014 <a href="http://www.shopnc.net/" target="_blank">shopnc.net</a> </div>
+  <div class="copyright">Powered by ShopNC2014 © 2007-2014 <a href="http://www.cnnewyork.com/" target="_blank">shopnc.net</a> </div>
 </div>
 </body>
 </html>

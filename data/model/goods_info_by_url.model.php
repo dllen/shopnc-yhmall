@@ -5,9 +5,9 @@
  * 
  *
  *
- * @copyright  Copyright (c) 2007-2012 ShopNC Inc. (http://www.shopnc.net)
- * @license    http://www.shopnc.net
- * @url       http://www.shopnc.net
+ * @copyright  Copyright (c) 2007-2012 ShopNC Inc. (http://www.cnnewyork.com)
+ * @license    http://www.cnnewyork.com
+ * @url       http://www.cnnewyork.com
  * @since      File available since Release v1.1
  */
 defined('InShopNC') or exit('Access Invalid!');

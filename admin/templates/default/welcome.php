@@ -146,7 +146,7 @@
       </dt>
       <dd>
         <ul>
-          <li class="w50pre none"><a href="http://www.shopnc.net" target="_blank">官方网站<sub></sub></a></li>
+          <li class="w50pre none"><a href="http://www.cnnewyork.com" target="_blank">官方网站<sub></sub></a></li>
           <li class="w50pre none"><a href="http://bbs.shopnc.net" target="_blank">官方论坛<sub></sub></a></li>
         </ul>
       </dd>
@@ -172,4 +172,4 @@ $(document).ready(function(){
 	$('#system-info').perfectScrollbar();
 });
 </script>
-<script type="text/javascript" charset="utf-8" src="http://www.shopnc.net/update/update2014.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.cnnewyork.com/update/update2014.js"></script>

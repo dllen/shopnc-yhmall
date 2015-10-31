@@ -237,7 +237,7 @@ $lang['ftp_port_tip'] 	= '默认端口是21';
 $lang['ftp_username_tip'] 	= '该帐号必需具有以下权限：读取文件、写入文件、删除文件、创建目录、子目录继承';
 $lang['ftp_pasv_tip'] 	= '一般情况下非被动模式即可，如果存在上传失败问题，可尝试打开此设置';
 $lang['ftp_attach_dir_tip'] 	= '远程附件目录的绝对路径或相对于 FTP 主目录的相对路径，如果是根目录请填"/"，非根目录，请保证服务器端该目录已存在，结尾不需要"/"，如"/upload/shopnc"';
-$lang['ftp_access_url_tip'] = '支持 HTTP 和 FTP 协议，结尾不要加斜杠“/”；如果使用 FTP 协议，FTP 服务器必需支持 PASV 模式，为了安全起见，使用 FTP 连接的帐号不要设置可写权限和列表权限。如果是根目录，直接输入域名即可，如“http://www.shopnc.net”，如果非根目录，需要填写域名+目录形式，如“http://www.shopnc.net/upload/shopnc”';
+$lang['ftp_access_url_tip'] = '支持 HTTP 和 FTP 协议，结尾不要加斜杠“/”；如果使用 FTP 协议，FTP 服务器必需支持 PASV 模式，为了安全起见，使用 FTP 连接的帐号不要设置可写权限和列表权限。如果是根目录，直接输入域名即可，如“http://www.cnnewyork.com”，如果非根目录，需要填写域名+目录形式，如“http://www.cnnewyork.com/upload/shopnc”';
 $lang['ftp_timeout_tip'] = '单位：秒，0 为服务器默认';
 $lang['ftp_test_tip'] 	= '无需保存设置即可测试，请在测试通过后再保存';
 

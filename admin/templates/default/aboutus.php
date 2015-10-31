@@ -66,7 +66,7 @@
       </tr>
       <tr class="noborder">
         <td></td>
-        <td><a href="http://www.shopnc.net" target="_blank">http://www.shopnc.net</a></td>
+        <td><a href="http://www.cnnewyork.com" target="_blank">http://www.cnnewyork.com</a></td>
       </tr>
     </tbody>
     <tfoot>
@@ -88,7 +88,7 @@
       </tr>
       <tr class="noborder">
         <td></td>
-        <td><a href="http://www.shopnc.net" target="_blank"><?php echo $lang['dashboard_aboutus_thanks_developer_name']; ?></a></td>
+        <td><a href="http://www.cnnewyork.com" target="_blank"><?php echo $lang['dashboard_aboutus_thanks_developer_name']; ?></a></td>
       </tr>
     </tbody>
     <tfoot>
@@ -106,7 +106,7 @@
     <tbody>
       <tr>
         <td class="w12"></td>
-        <td><a href="http://www.shopnc.net" target="_blank"><?php echo $lang['dashboard_aboutus_notice1'];?></a>&nbsp;<?php echo $lang['dashboard_aboutus_notice2'];?>&nbsp;<a href="http://www.shopnc.net" target="_blank">ShopNC</a>&nbsp;<?php echo $lang['dashboard_aboutus_notice3'];?></td>
+        <td><a href="http://www.cnnewyork.com" target="_blank"><?php echo $lang['dashboard_aboutus_notice1'];?></a>&nbsp;<?php echo $lang['dashboard_aboutus_notice2'];?>&nbsp;<a href="http://www.cnnewyork.com" target="_blank">ShopNC</a>&nbsp;<?php echo $lang['dashboard_aboutus_notice3'];?></td>
       </tr>
       <tr class="noborder">
         <td></td>
