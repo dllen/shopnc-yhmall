@@ -58,7 +58,15 @@ class searchControl extends BaseHomeControl {
                     $condition['brand_id'] = intval($_GET['b_id']);
                 }
                 if ($_GET['keyword'] != '') {
-                    $condition['goods_name|goods_jingle'] = array('like', '%' . $_GET['keyword'] . '%');
+					// 品牌搜索
+					$model_brand = Model('brand');
+					$condition_brand['brand_name'] = array('like', '%' . $_GET['keyword'] . '%');
+					$row_brand = $model_brand->where($condition_brand)->find();
+					if ($row_brand) {
+						$condition['goods_name|goods_jingle|brand_id'] = array(array('like', '%' . $_GET['keyword'] . '%'), array('eq', intval($row_brand['brand_id'])), 'or');
+					} else {
+						$condition['goods_name|goods_jingle'] = array('like', '%' . $_GET['keyword'] . '%');
+					}
                 }
                 if (intval($_GET['area_id']) > 0) {
                     $condition['areaid_1'] = intval($_GET['area_id']);
