@@ -68,6 +68,7 @@ class searchControl extends BaseHomeControl {
 						$condition['goods_name|goods_jingle'] = array('like', '%' . $_GET['keyword'] . '%');
 					}
                 }
+				
                 if (intval($_GET['area_id']) > 0) {
                     $condition['areaid_1'] = intval($_GET['area_id']);
                 }

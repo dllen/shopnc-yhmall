@@ -5,9 +5,9 @@
  *
  *
  *
- * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.cnnewyork.com)
- * @license    http://www.cnnewyork.com
- * @link       http://www.cnnewyork.com
+ * @copyright  Copyright (c) 2007-2013 ShopNC Inc. (http://www.shopnc.net)
+ * @license    http://www.shopnc.net
+ * @link       http://www.shopnc.net
  * @since      File available since Release v1.1
  */
 defined('InShopNC') or exit('Access Invalid!');
@@ -57,7 +57,7 @@ class brandControl extends SystemControl{
 		}
 		$condition['brand_apply']	= '1';
 
-		$brand_list = $model_brand->table('brand')->where($condition)->order('brand_id desc')->page(20)->select();
+		$brand_list = $model_brand->table('brand')->where($condition)->order('brand_sort asc')->page(20)->select();
 		Tpl::output('page',$model_brand->showpage());
 		Tpl::output('brand_list',$brand_list);
 		Tpl::output('search_brand_name',trim($_GET['search_brand_name']));
